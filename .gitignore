@@ -1,0 +1,20 @@
+# Ignore emacs files
+*~
+
+# Ignore AMUMSS
+AMUMSS/BUILDMOD.bat
+AMUMSS/BUILDMOD_AUTO.bat
+AMUMSS/CONFIG/
+AMUMSS/CreatedModPAKs/BuildHistory/
+AMUMSS/MODBUILDER/
+AMUMSS/ModScript/ModHelperScripts/
+AMUMSS/ModScript/___COMBINEx.txt
+AMUMSS/ModScript/___USE.txt
+AMUMSS/README/
+AMUMSS/REPORT.lua
+AMUMSS/TOOLS/
+AMUMSS/_AMM_ModScript_Manager.exe
+AMUMSS/_Check_CONFLICTS_in_MODS.bat
+AMUMSS/_NMS PCBANKS Explorer.exe
+AMUMSS/_README-AMUMSS_Script_Rules.lnk
+AMUMSS/log.lua
