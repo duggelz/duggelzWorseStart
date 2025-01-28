@@ -15,6 +15,7 @@ AMUMSS/REPORT.lua
 AMUMSS/TOOLS/
 AMUMSS/_AMM_ModScript_Manager.exe
 AMUMSS/_Check_CONFLICTS_in_MODS.bat
+AMUMSS/_Check_OUTDATED.bat
 AMUMSS/_NMS PCBANKS Explorer.exe
 AMUMSS/_README-AMUMSS_Script_Rules.lnk
 AMUMSS/log.lua
