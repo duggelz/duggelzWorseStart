@@ -47,6 +47,21 @@ KNOWN_PRODUCTS_TEXT = [[
     <Property value="NMSString0x10.xml">
 	  <Property name="Value" value="GARAGE_SUB" />
     </Property>
+    <Property value="NMSString0x10.xml">
+	  <Property name="Value" value="S9_BUILDERTREE" />
+    </Property>
+    <Property value="NMSString0x10.xml">
+	  <Property name="Value" value="S9_EXOCRAFTTREE" />
+    </Property>
+    <Property value="NMSString0x10.xml">
+	  <Property name="Value" value="S9_WEAPONTREE" />
+    </Property>
+    <Property value="NMSString0x10.xml">
+	  <Property name="Value" value="S9_SUITTREE" />
+    </Property>
+    <Property value="NMSString0x10.xml">
+	  <Property name="Value" value="S9_SHIPTREE" />
+    </Property>
 ]]
 
 MBIN_CHANGE_TABLE = {
