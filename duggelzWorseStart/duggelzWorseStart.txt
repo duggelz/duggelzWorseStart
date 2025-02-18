@@ -13,11 +13,12 @@ Instructions:
 
 What This Mod Does Exactly:
 
- Your starting planet is a random biome with random conditions. Can be anything from Lush to Exotic, clear weather to extreme storms, minimal sentinels to extreme sentinels.
+ Your starting planet is a random biome with random conditions.  Can be anything from Lush to Exotic, clear weather to extreme storms, minimal sentinels to extreme sentinels.
  Your ship has nothing installed, no useful slots, and cannot be repaired or flown.  But you can take shelter in it, and use it to save your game.
  You know how to build all the exocraft bays.  But you have to find materials like Gold, Silver, or Paraffinium to actually build them.
  You know how to build the construction research station.  If you've installed the Construction Research Unit Updated mod, you can research and build upgrades to your exocraft as well.
- You know how to build the Utopia Stations, so you can research technologies without going to the Anomaly.  You do have to build a base first, though.
+ You know how to build the Utopia Stations, so you can research technologies without going to the Anomaly.  You can build them without having a base, but you still need chromatic metal.
+ You know how to build save points and save beacons.
  You get more variety in secondary resources from plants and minerals. This might help you build things that would otherwise be impossible.
  By default, the Tutorial is Disabled.
  If the Tutorial is Enabled, you won't have a Terrain Manipulator to mine resource deposits.  This can be really rough.  You can potentially mine with exocraft if you have the right upgrades.  Or acquire another multitool with the Terrain Manipulator installed.
@@ -31,6 +32,7 @@ Files Modified:
  GLOBALS/GCGAMEPLAYGLOBALS.GLOBAL.EXML
  METADATA/GAMESTATE/DIFFICULTYCONFIG.EXML
  METADATA/REALITY/DEFAULTREALITY.EXML
+ METADATA/REALITY/TABLES/BASEBUILDINGOBJECTSTABLE.EXML
  METADATA/SIMULATION/SOLARSYSTEM/BIOMES/BIOMEFILENAMES.EXML
 
 FAQ:
