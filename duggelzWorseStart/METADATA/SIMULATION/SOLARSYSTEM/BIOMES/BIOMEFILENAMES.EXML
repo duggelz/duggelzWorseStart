@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--File created using MBINCompiler version (5.57.0.1)-->
 <Data template="cGcBiomeFileList">
-	<!--
 	<Property name="ValidStartPlanetBiome">
+		<!-- Make the starter planet have a worse biome -->
+		<!-- Bug: This doesn't remove the original values from this table, which are 
+		            Toxic, Scorched, Radioactive, Frozen
+				  It just appends the new values instead. -->
 		<Property name="ValidStartPlanetBiome" value="GcBiomeType">
 			<Property name="Biome" value="Barren" />
 		</Property>
@@ -34,5 +37,4 @@
 			<Property name="Biome" value="GasGiant" />
 		</Property>
 	</Property>
-		-->
 </Data>

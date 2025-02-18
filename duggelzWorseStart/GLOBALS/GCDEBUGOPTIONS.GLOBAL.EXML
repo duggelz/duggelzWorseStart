@@ -3,94 +3,101 @@
 <Data template="cGcDebugOptions">
 	<!-- Random starting ship -->
 	<Property name="ForceInitialShip" value="false" />
+
 	<!-- Random starting weapon -->
 	<Property name="ForceInitialWeapon" value="false" />
+
 	<!-- This starts the player on a random planet in the
       -- starter system, but also puts the player next to the
       -- ship and useful wreckage. -->
 	<Property name="PlayerSpawnLocationOverride" value="RandomPlanet" />
-
+	
 	<!-- Temporary for debugging -->
-	<!-- <Property name="HotReloadModGlobals" value="false" /> -->
+	<!--<Property name="HotReloadModGlobals" value="true" />-->
 	<Property name="SaveOutModdedMetadata" value="true" />
 
-	<!-- <Property name="ForceExtremeWeather" value="false" /> -->
-	<!-- <Property name="ForceExtremeSentinels" value="false" /> -->
-	<!-- <Property name="ForceCorruptSentinels" value="false" /> -->
-
-	<!-- Not sure if this does anything -->
+	<!-- Seems to help but hard to be sure -->
 	<Property name="ForceLoadAllWeather" value="true" />
-
+	
+	<!-- Seems to help but hard to be sure -->
+	<Property name="ModifyPlanetsInInitialSystems" value="false" />
+	
+	<!-- I can't get this to do anything -->
+	<!--
 	<Property name="ForceStarType" value="true" />
 	<Property name="ForceStarTypeTo" value="GcGalaxyStarTypes">
 		<Property name="GalaxyStarType" value="Green" />
 	</Property>
-
-	<!-- <Property name="ForceBiome" value="false" /> -->
-	<!-- <Property name="ForceBiomeTo" value="GcBiomeType"> -->
-		<!-- <Property name="Biome" value="Barren" /> -->
-	<!-- </Property> -->
-	<!-- <Property name="ForceBiomeSubTypeTo" value="GcBiomeSubType"> -->
-		<!-- <Property name="BiomeSubType" value="None" /> -->
-	<!-- </Property> -->
-	<!-- <Property name="ForceScreenFilter" value="false" /> -->
-	<!-- <Property name="ForceScreenFilterTo" value="GcScreenFilters"> -->
-		<!-- <Property name="ScreenFilter" value="Solarise" /> -->
-	<!-- </Property> -->
-	<!-- <Property name="ForceBuildingRace" value="false" /> -->
-	<!-- <Property name="ForceBuildingRaceTo" value="GcAlienRace"> -->
-		<!-- <Property name="AlienRace" value="Traders" /> -->
-	<!-- </Property> -->
-	<!-- <Property name="ForceLifeLevel" value="false" /> -->
-	<!-- <Property name="ForceLifeLevelTo" value="GcPlanetLife"> -->
-		<!-- <Property name="LifeSetting" value="Full" /> -->
-	<!-- </Property> -->
-	<!-- <Property name="ForceCreatureLifeLevel" value="false" /> -->
-	<!-- <Property name="ForceDefaultCreatureFile" value="false" /> -->
-	<!-- <Property name="DefaultGroundCreatureTable" value="DEFAULT" /> -->
-	<!-- <Property name="DefaultAirCreatureTable" value="DEFAULT" /> -->
-	<!-- <Property name="DefaultWaterCreatureTable" value="DEFAULT" /> -->
-	<!-- <Property name="DefaultCaveCreatureTable" value="DEFAULT" /> -->
-	<!-- <Property name="ForceCreatureLifeLevelTo" value="GcPlanetLife"> -->
-		<!-- <Property name="LifeSetting" value="Full" /> -->
-	<!-- </Property> -->
-	<!-- <Property name="ForceTerrainSettings" value="GcPlanetLife"> -->
-		<!-- <Property name="LifeSetting" value="Full" /> -->
-	<!-- </Property> -->
-	<!-- <Property name="ForceTerrainType" value="false" /> -->
-	<!-- <Property name="ForceTerrainTypeTo" value="TkVoxelGeneratorSettingsTypes"> -->
-		<!-- <Property name="TerrainSettings" value="Alpine" /> -->
-	<!-- </Property> -->
-	<!-- <Property name="ForcePirateSystem" value="false" /> -->
-	<!-- <Property name="ForceGiantSystem" value="false" /> -->
-	<!-- <Property name="ForceGasGiantSystem" value="false" /> -->
-	<!-- <Property name="ForcePrimeTerrain" value="false" /> -->
-	<!-- <Property name="ForceBinaryStar" value="false" /> -->
-	<!-- <Property name="ForceTernaryStar" value="false" /> -->
-	<!-- <Property name="ForceAnomalyTo" value="GcGalaxyStarAnomaly"> -->
-		<!-- <Property name="GalaxyStarAnomaly" value="None" /> -->
-	<!-- </Property> -->
-	<!-- <Property name="ForcePlanetsToHaveWater" value="false" /> -->
-	<!-- <Property name="ForceWaterObjectFileIndex" value="-1" /> -->
-	<!-- <Property name="ForceSeaLevel" value="-1.000000" /> -->
-	<!-- <Property name="ForceWaterCondition" value="false" /> -->
-	<!-- <Property name="ForceWaterConditionTo" value="TkWaterCondition"> -->
-		<!-- <Property name="WaterCondition" value="Absolutely_Tranquil" /> -->
-	<!-- </Property> -->
-	<!-- <Property name="ForceSkyColourIndex" value="-1" /> -->
-	<!-- <Property name="ForceSpaceSkyColourIndex" value="-1" /> -->
-	<!-- <Property name="ForceSpaceSkyColourRare" value="false" /> -->
-	<!-- <Property name="ForceSkyColourSeed" value="0" /> -->
-	<!-- <Property name="ForceWaterColourIndex" value="-1" /> -->
-	<!-- <Property name="ForceGrassColourIndex" value="-1" /> -->
+	<Property name="ForcePirateSystem" value="true" />
+	-->
 	
-	<!-- Not sure if this does anything -->
-	<Property name="ModifyPlanetsInInitialSystems" value="false" />
-	
-	<!-- <Property name="ForcePlanetsToHaveNoWater" value="false" /> -->
-	<!-- <Property name="ForcePlanetsToHaveNoCaves" value="false" /> -->
-	<!-- <Property name="ForcePlanetsToHaveNoNoiseLayers" value="false" /> -->
-	<!-- <Property name="ForcePlanetsToHaveNoTerrainFeatures" value="false" /> -->
-	<!-- <Property name="ForceRareAsteroidSystem" value="false" /> -->
-	<!-- <Property name="ForceAsteroidSystemIndex" value="-1" /> -->
+	<!-- Interesting sounding stuff to look into -->
+	<!--
+	<Property name="ForceExtremeWeather" value="false" />
+	<Property name="ForceExtremeSentinels" value="false" />
+	<Property name="ForceCorruptSentinels" value="false" />
+	<Property name="ForceBiome" value="false" />
+	<Property name="ForceBiomeTo" value="GcBiomeType">
+		<Property name="Biome" value="Barren" />
+	</Property>
+	<Property name="ForceBiomeSubTypeTo" value="GcBiomeSubType">
+		<Property name="BiomeSubType" value="None" />
+	</Property>
+	<Property name="ForceScreenFilter" value="false" />
+	<Property name="ForceScreenFilterTo" value="GcScreenFilters">
+		<Property name="ScreenFilter" value="Solarise" />
+	</Property>
+	<Property name="ForceBuildingRace" value="false" />
+	<Property name="ForceBuildingRaceTo" value="GcAlienRace">
+		<Property name="AlienRace" value="Traders" />
+	</Property>
+	<Property name="ForceLifeLevel" value="false" />
+	<Property name="ForceLifeLevelTo" value="GcPlanetLife">
+		<Property name="LifeSetting" value="Full" />
+	</Property>
+	<Property name="ForceCreatureLifeLevel" value="false" />
+	<Property name="ForceDefaultCreatureFile" value="false" />
+	<Property name="DefaultGroundCreatureTable" value="DEFAULT" />
+	<Property name="DefaultAirCreatureTable" value="DEFAULT" />
+	<Property name="DefaultWaterCreatureTable" value="DEFAULT" />
+	<Property name="DefaultCaveCreatureTable" value="DEFAULT" />
+	<Property name="ForceCreatureLifeLevelTo" value="GcPlanetLife">
+		<Property name="LifeSetting" value="Full" />
+	</Property>
+	<Property name="ForceTerrainSettings" value="GcPlanetLife">
+		<Property name="LifeSetting" value="Full" />
+	</Property>
+	<Property name="ForceTerrainType" value="false" />
+	<Property name="ForceTerrainTypeTo" value="TkVoxelGeneratorSettingsTypes">
+		<Property name="TerrainSettings" value="Alpine" />
+	</Property>
+	<Property name="ForcePirateSystem" value="false" />
+	<Property name="ForceGiantSystem" value="false" />
+	<Property name="ForceGasGiantSystem" value="false" />
+	<Property name="ForcePrimeTerrain" value="false" />
+	<Property name="ForceBinaryStar" value="false" />
+	<Property name="ForceTernaryStar" value="false" />
+	<Property name="ForceAnomalyTo" value="GcGalaxyStarAnomaly">
+		<Property name="GalaxyStarAnomaly" value="None" />
+	</Property>
+	<Property name="ForcePlanetsToHaveWater" value="false" />
+	<Property name="ForceWaterObjectFileIndex" value="-1" />
+	<Property name="ForceSeaLevel" value="-1.000000" />
+	<Property name="ForceWaterCondition" value="false" />
+	<Property name="ForceWaterConditionTo" value="TkWaterCondition">
+		<Property name="WaterCondition" value="Absolutely_Tranquil" />
+	</Property>
+	<Property name="ForceSkyColourIndex" value="-1" />
+	<Property name="ForceSpaceSkyColourIndex" value="-1" />
+	<Property name="ForceSpaceSkyColourRare" value="false" />
+	<Property name="ForceSkyColourSeed" value="0" />
+	<Property name="ForceWaterColourIndex" value="-1" />
+	<Property name="ForceGrassColourIndex" value="-1" />
+	<Property name="ForcePlanetsToHaveNoWater" value="false" />
+	<Property name="ForcePlanetsToHaveNoCaves" value="false" />
+	<Property name="ForcePlanetsToHaveNoNoiseLayers" value="false" />
+	<Property name="ForcePlanetsToHaveNoTerrainFeatures" value="false" />
+	<Property name="ForceRareAsteroidSystem" value="false" />
+	<Property name="ForceAsteroidSystemIndex" value="-1" />
+	-->
 </Data>

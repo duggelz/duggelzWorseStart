@@ -6,32 +6,6 @@
    	<Property name="StartWithAllItemsKnownDisabledData" value="GcDifficultyStartWithAllItemsKnownOptionData">
 		<Property name="InitialKnownThings" value="GcKnownThingsPreset">
 			<Property name="KnownProducts">
-				<Property name="KnownProducts" value="AMMO" />
-				<Property name="KnownProducts" value="BUILD_REFINER1" />
-				<Property name="KnownProducts" value="NANOTUBES" />
-				<Property name="KnownProducts" value="CASING" />
-				<Property name="KnownProducts" value="JELLY" />
-				<Property name="KnownProducts" value="PRODFUEL2" />
-				<Property name="KnownProducts" value="POWERCELL" />
-				<Property name="KnownProducts" value="HYPERFUEL1" />
-				<Property name="KnownProducts" value="LAUNCHFUEL" />
-				<Property name="KnownProducts" value="FRE_ROOM_FLEET" />
-				<Property name="KnownProducts" value="FRE_CORR_A" />
-				<Property name="KnownProducts" value="FRE_ROOM_PLANT1" />
-				<Property name="KnownProducts" value="FRE_ROOM_REFINE" />
-				<Property name="KnownProducts" value="FRE_ROOM_SHOP" />
-				<Property name="KnownProducts" value="FRE_ROOM_STORE0" />
-				<Property name="KnownProducts" value="FRE_ROOM_STORE1" />
-				<Property name="KnownProducts" value="FRE_ROOM_STORE2" />
-				<Property name="KnownProducts" value="FRE_ROOM_STORE3" />
-				<Property name="KnownProducts" value="FRE_ROOM_STORE4" />
-				<Property name="KnownProducts" value="FRE_ROOM_STORE5" />
-				<Property name="KnownProducts" value="FRE_ROOM_STORE6" />
-				<Property name="KnownProducts" value="FRE_ROOM_STORE7" />
-				<Property name="KnownProducts" value="FRE_ROOM_STORE8" />
-				<Property name="KnownProducts" value="FRE_ROOM_STORE9" />
-				<Property name="KnownProducts" value="FREIGHT_PAINT" />
-				<Property name="KnownProducts" value="FRE_FACE_DOOR_A" />
 				<Property name="KnownProducts" value="BP_ANALYSER" />
 				<Property name="KnownProducts" value="GARAGE_B" />
 				<Property name="KnownProducts" value="GARAGE_S" />
