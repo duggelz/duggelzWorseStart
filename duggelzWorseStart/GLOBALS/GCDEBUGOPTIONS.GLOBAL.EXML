@@ -14,7 +14,7 @@
 	
 	<!-- Temporary for debugging -->
 	<!--<Property name="HotReloadModGlobals" value="true" />-->
-	<Property name="SaveOutModdedMetadata" value="true" />
+	<!--<Property name="SaveOutModdedMetadata" value="true" />-->
 
 	<!-- Seems to help but hard to be sure -->
 	<Property name="ForceLoadAllWeather" value="true" />
