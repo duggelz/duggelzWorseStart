@@ -5,8 +5,8 @@ Your starting ship is broken and unrepairable. Your starting world is random. Ma
 Instructions:
 
  Install this mod with the mod manager of your choice.
- Start a new savegame on Custom difficulty with Tutorial set to Disabled.
- [Optional] Start with Tutorial set to Enabled (the default) to make things much harder.
+ Start a new savegame.
+ [Optional] Start on Custom difficulty with Tutorial set to Enabled to make things much harder.
  Restart a few times until you get a planet you want to play on.
  Start walking...
 
@@ -19,27 +19,28 @@ What This Mod Does Exactly:
  You know how to build the construction research station.  If you've installed the Construction Research Unit Updated mod, you can research and build upgrades to your exocraft as well.
  You know how to build the Utopia Stations, so you can research technologies without going to the Anomaly.  You do have to build a base first, though.
  You get more variety in secondary resources from plants and minerals. This might help you build things that would otherwise be impossible.
+ By default, the Tutorial is Disabled.
  If the Tutorial is Enabled, you won't have a Terrain Manipulator to mine resource deposits.  This can be really rough.  You can potentially mine with exocraft if you have the right upgrades.  Or acquire another multitool with the Terrain Manipulator installed.
  If the Tutorial is Enabled, you won't be able to build a base, until you've gotten off the starter planet.  Live in your exocraft!
 
 
 Files Modified:
 
- GCDEBUGOPTIONS.GLOBAL.MBIN
- GCGAMEPLAYGLOBALS.GLOBAL.MBIN
- METADATA/SIMULATION/SOLARSYSTEM/BIOMES/BIOMEFILENAMES.MBIN
- METADATA/GAMESTATE/DIFFICULTYCONFIG.MBIN
- METADATA/REALITY/DEFAULTREALITY.MBIN
- MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/DISTRESSSIGNAL/STARTSCENE.SCENE.MBIN
-
+ GLOBALS/GCBUILDINGGLOBALS.GLOBAL.EXML
+ GLOBALS/GCDEBUGOPTIONS.GLOBAL.EXML
+ GLOBALS/GCGAMEPLAYGLOBALS.GLOBAL.EXML
+ METADATA/GAMESTATE/DIFFICULTYCONFIG.EXML
+ METADATA/REALITY/DEFAULTREALITY.EXML
+ METADATA/SIMULATION/SOLARSYSTEM/BIOMES/BIOMEFILENAMES.EXML
 
 FAQ:
 
  "Exosuit Initialisation In Progress" If your starter planet doesn't have sodium plants nearby, the tutorial will freak out a bit here. Just try to ignore that message and find some sodium somewhere.
  "Research Structures: Archives Still Fragmented" At a certain point, you're supposed to learn recipes from the construction research station to build your first base. But sometimes it just shows this message and you can't progress. I don't have a solid suggestion for this one yet.
- Is it possible to start on a red, green or blue star system? No, sorry. I haven't figured out a way to do that. It would be neat though.
- Is it possible to start on a dissonant planet? I'm not sure. It's never happened to me, but one time I found a single lost autophage, that I couldn't do anything about since I didn't have any atlantideum.
-
+ Is it possible to start in a red, green, blue or purple star system? No, sorry. I haven't figured out a way to do that.
+ Is it possible to start on a dissonant planet? Yes, but it is extremely rare.
+ Is it possible to start in an outlaw system? No, sorry. I haven't figured out a way to do that.
 
 Bugs:
+
 Unquestionably. Let me know in the comments what you find. Please give me information like what platform you're running, what other mods you're running, and anything else you can think of. I'm making this mod instead of doing homework, so I may or may not be have time to figure out a fix.
