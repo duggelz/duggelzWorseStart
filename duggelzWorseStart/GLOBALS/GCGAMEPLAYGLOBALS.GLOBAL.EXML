@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (5.57.0.1)-->
+<Data template="cGcGameplayGlobals">
+	<!-- If you're stuck on the starting planet for while, at least you
+	  -- might get some extra elements -->
+	<Property name="UseSecondaryBiomeSubstances" value="true" />
+</Data>

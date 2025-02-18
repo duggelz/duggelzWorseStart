@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (5.57.0.1)-->
+<Data template="cGcRealityManagerData">
+	<!-- Delete all slots on the starter ship -->
+	<Property name="ShipStartingLayout" value="GcInventoryLayout">
+		<Property name="Slots" value="0" />
+		<Property name="Seed" value="7" />
+		<Property name="Level" value="1" />
+	</Property>
+	<Property name="ShipTechOnlyStartingLayout" value="GcInventoryLayout">
+		<Property name="Slots" value="0" />
+		<Property name="Seed" value="1" />
+		<Property name="Level" value="0" />
+	</Property>
+	<Property name="ShipCargoOnlyStartingLayout" value="GcInventoryLayout">
+		<Property name="Slots" value="0" />
+		<Property name="Seed" value="1" />
+		<Property name="Level" value="0" />
+	</Property>
+</Data>
