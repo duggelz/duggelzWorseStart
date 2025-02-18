@@ -28,69 +28,45 @@
 -- the game can pick a starter system that only has "bad" biomes,
 -- instead of requiring at least one "good" one.
 VALID_START_BIOME_TEXT = [[
-    <Property value="GcBiomeType.xml">
+    <Property name="ValidStartPlanetBiome" value="GcBiomeType">
       <Property name="Biome" value="Barren" />
     </Property>
-    <Property value="GcBiomeType.xml">
+    <Property name="ValidStartPlanetBiome" value="GcBiomeType">
       <Property name="Biome" value="Dead" />
     </Property>
-    <Property value="GcBiomeType.xml">
+    <Property name="ValidStartPlanetBiome" value="GcBiomeType">
       <Property name="Biome" value="Weird" />
     </Property>
-    <Property value="GcBiomeType.xml">
+    <Property name="ValidStartPlanetBiome" value="GcBiomeType">
       <Property name="Biome" value="Red" />
     </Property>
-    <Property value="GcBiomeType.xml">
+    <Property name="ValidStartPlanetBiome" value="GcBiomeType">
       <Property name="Biome" value="Green" />
     </Property>
-    <Property value="GcBiomeType.xml">
+    <Property name="ValidStartPlanetBiome" value="GcBiomeType">
       <Property name="Biome" value="Blue" />
     </Property>
-    <Property value="GcBiomeType.xml">
+    <Property name="ValidStartPlanetBiome" value="GcBiomeType">
       <Property name="Biome" value="Swamp" />
     </Property>
-    <Property value="GcBiomeType.xml">
+    <Property name="ValidStartPlanetBiome" value="GcBiomeType">
       <Property name="Biome" value="Lava" />
     </Property>
 ]]
 
 KNOWN_PRODUCTS_TEXT = [[
-    <Property value="NMSString0x10.xml">
-	  <Property name="Value" value="BP_ANALYSER" />
-    </Property>
-    <Property value="NMSString0x10.xml">
-	  <Property name="Value" value="GARAGE_B" />
-    </Property>
-    <Property value="NMSString0x10.xml">
-	  <Property name="Value" value="GARAGE_S" />
-    </Property>
-    <Property value="NMSString0x10.xml">
-	  <Property name="Value" value="GARAGE_M" />
-    </Property>
-    <Property value="NMSString0x10.xml">
-	  <Property name="Value" value="GARAGE_L" />
-    </Property>
-    <Property value="NMSString0x10.xml">
-	  <Property name="Value" value="GARAGE_MECH" />
-    </Property>
-    <Property value="NMSString0x10.xml">
-	  <Property name="Value" value="GARAGE_SUB" />
-    </Property>
-    <Property value="NMSString0x10.xml">
-	  <Property name="Value" value="S9_BUILDERTREE" />
-    </Property>
-    <Property value="NMSString0x10.xml">
-	  <Property name="Value" value="S9_EXOCRAFTTREE" />
-    </Property>
-    <Property value="NMSString0x10.xml">
-	  <Property name="Value" value="S9_WEAPONTREE" />
-    </Property>
-    <Property value="NMSString0x10.xml">
-	  <Property name="Value" value="S9_SUITTREE" />
-    </Property>
-    <Property value="NMSString0x10.xml">
-	  <Property name="Value" value="S9_SHIPTREE" />
-    </Property>
+  <Property name="Value" value="BP_ANALYSER" />
+  <Property name="Value" value="GARAGE_B" />
+  <Property name="Value" value="GARAGE_S" />
+  <Property name="Value" value="GARAGE_M" />
+  <Property name="Value" value="GARAGE_L" />
+  <Property name="Value" value="GARAGE_MECH" />
+  <Property name="Value" value="GARAGE_SUB" />
+  <Property name="Value" value="S9_BUILDERTREE" />
+  <Property name="Value" value="S9_EXOCRAFTTREE" />
+  <Property name="Value" value="S9_WEAPONTREE" />
+  <Property name="Value" value="S9_SUITTREE" />
+  <Property name="Value" value="S9_SHIPTREE" />
 ]]
 
 MBIN_CHANGE_TABLE = {
@@ -117,13 +93,15 @@ MBIN_CHANGE_TABLE = {
                -- ship and useful wreckage.
                {"PlayerSpawnLocationOverride", "RandomPlanet"},
                -- Random starting ship
-               {"ForceInitialShip", "False"},
+               {"ForceInitialShip", "false"},
                -- Random starting weapon
-               {"ForceInitialWeapon", "False"},
+               {"ForceInitialWeapon", "false"},
                -- Not sure if this does anything
-               {"ForceLoadAllWeather", "True"},
+               {"ForceLoadAllWeather", "true"},
                -- Not sure if this does anything
-               {"ModifyPlanetsInInitialSystems", "False"},
+               {"ModifyPlanetsInInitialSystems", "false"},
+			   -- For debugging
+			   {"SaveOutModdedMetadata", "true"},
             }
          }
       }
@@ -135,7 +113,7 @@ MBIN_CHANGE_TABLE = {
       ["EXML_CHANGE_TABLE"] = {
          {
             ["VALUE_CHANGE_TABLE"] = {
-               {"UseSecondaryBiomeSubstances", "True"},
+               {"UseSecondaryBiomeSubstances", "true"},
             }
          },
       }
@@ -176,8 +154,8 @@ MBIN_CHANGE_TABLE = {
       ["EXML_CHANGE_TABLE"] = {
          {
             ["SPECIAL_KEY_WORDS"] = {
-               "StartWithAllItemsKnownDisabledData", "GcDifficultyStartWithAllItemsKnownOptionData.xml",
-               "InitialKnownThings", "GcKnownThingsPreset.xml",
+               "StartWithAllItemsKnownDisabledData", "GcDifficultyStartWithAllItemsKnownOptionData",
+               "InitialKnownThings", "GcKnownThingsPreset",
             },
             ["PRECEDING_KEY_WORDS"] = {"KnownProducts"},
             ["ADD"] = KNOWN_PRODUCTS_TEXT,
@@ -192,9 +170,9 @@ MBIN_CHANGE_TABLE = {
       ["EXML_CHANGE_TABLE"] = {
          {
             ["FOREACH_SKW_GROUP"] = {
-               {"ShipStartingLayout", "GcInventoryLayout.xml"},
-               {"ShipCargoOnlyStartingLayout", "GcInventoryLayout.xml"},
-               {"ShipTechOnlyStartingLayout", "GcInventoryLayout.xml"},
+               {"ShipStartingLayout", "GcInventoryLayout"},
+               {"ShipCargoOnlyStartingLayout", "GcInventoryLayout"},
+               {"ShipTechOnlyStartingLayout", "GcInventoryLayout"},
             },
             ["VALUE_CHANGE_TABLE"] = {
                {"Slots", "0"},
@@ -203,35 +181,35 @@ MBIN_CHANGE_TABLE = {
       },
    },
    -- Remove most items from initial crash site
-   {
-      ["MBIN_FILE_SOURCE"] = "MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/DISTRESSSIGNAL/STARTSCENE.SCENE.MBIN",
-      ["EXML_CHANGE_TABLE"] = {
-         {
-            ["FOREACH_SKW_GROUP"] = {
-               {"Name", "FUELPLANT",},
-               {"Name", "FUELPLANT1",},
-               {"Name", "FUELPLANT2",},
-               {"Name", "FUELPLANT3",},
-               {"Name", "ResourceLarge1",},
-               {"Name", "ResourceIron1",},
-               {"Name", "ResourceDebris",},
-               {"Name", "ResourceSmall4",},
-               {"Name", "ResourceSmall6",},
-               {"Name", "ShipSpawn_1"},
-               {"Name", "ShipSpawn_2"},
-               {"Name", "ShipSpawn_3"},
-            },
-            ["REMOVE"] 	= {"SECTION"},
-         },
-      },
-   },
+   -- {
+      -- ["MBIN_FILE_SOURCE"] = "MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/DISTRESSSIGNAL/STARTSCENE.SCENE.MBIN",
+      -- ["EXML_CHANGE_TABLE"] = {
+         -- {
+            -- ["FOREACH_SKW_GROUP"] = {
+               -- {"Name", "FUELPLANT",},
+               -- {"Name", "FUELPLANT1",},
+               -- {"Name", "FUELPLANT2",},
+               -- {"Name", "FUELPLANT3",},
+               -- {"Name", "ResourceLarge1",},
+               -- {"Name", "ResourceIron1",},
+               -- {"Name", "ResourceDebris",},
+               -- {"Name", "ResourceSmall4",},
+               -- {"Name", "ResourceSmall6",},
+               -- {"Name", "ShipSpawn_1"},
+               -- {"Name", "ShipSpawn_2"},
+               -- {"Name", "ShipSpawn_3"},
+            -- },
+            -- ["REMOVE"] 	= {"SECTION"},
+         -- },
+      -- },
+   -- },
 }
 
 NMS_MOD_DEFINITION_CONTAINER = {
    ["MOD_FILENAME"]    = "duggelzWorseStart.pak",
    ["MOD_AUTHOR"]      = "duggelz",
    ["MOD_DESCRIPTION"] = "Adds a slower and more difficult starter planet experience.",
-   ["NMS_VERSION"]     = "5.29+",
+   ["NMS_VERSION"]     = "5.54+",
    ["MODIFICATIONS"]   = {{["MBIN_CHANGE_TABLE"] = MBIN_CHANGE_TABLE,}},
 }
 
