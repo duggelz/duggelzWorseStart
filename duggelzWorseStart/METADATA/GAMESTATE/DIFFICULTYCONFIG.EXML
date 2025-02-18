@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--File created using MBINCompiler version (5.57.0.1)-->
 <Data template="cGcDifficultyConfig">
+	<!-- Disable the tutorial by default -->
+	<Property name="Presets">
+		<Property name="Invalid" value="GcDifficultySettingsData">
+			<Property name="TutorialEnabled" value="false" />
+		</Property>
+		<Property name="Custom" value="GcDifficultySettingsData">
+			<Property name="TutorialEnabled" value="false" />
+		</Property>
+		<Property name="Normal" value="GcDifficultySettingsData">
+			<Property name="TutorialEnabled" value="false" />
+		</Property>
+		<Property name="Creative" value="GcDifficultySettingsData">
+			<Property name="TutorialEnabled" value="false" />
+		</Property>
+		<Property name="Relaxed" value="GcDifficultySettingsData">
+			<Property name="TutorialEnabled" value="false" />
+		</Property>
+		<Property name="Survival" value="GcDifficultySettingsData">
+			<Property name="TutorialEnabled" value="false" />
+		</Property>
+		<Property name="Permadeath" value="GcDifficultySettingsData">
+			<Property name="TutorialEnabled" value="false" />
+		</Property>
+	</Property>
 	<!-- Start out knowing Construction Research Station, exocraft bays,
-	  -- and Utopia Stations. -->
+	  -- save points, and Utopia Stations. -->
    	<Property name="StartWithAllItemsKnownDisabledData" value="GcDifficultyStartWithAllItemsKnownOptionData">
 		<Property name="InitialKnownThings" value="GcKnownThingsPreset">
 			<Property name="KnownProducts">
@@ -18,6 +42,8 @@
 				<Property name="KnownProducts" value="S9_WEAPONTREE" />
 				<Property name="KnownProducts" value="S9_SUITTREE" />
 				<Property name="KnownProducts" value="S9_SHIPTREE" />
+				<Property name="KnownProducts" value="BUILDSAVE" />
+				<Property name="KnownProducts" value="BUILDBEACON" />
 			</Property>
 		</Property>
 	</Property>
