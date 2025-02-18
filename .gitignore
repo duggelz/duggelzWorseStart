@@ -5,8 +5,10 @@
 AMUMSS/BUILDMOD.bat
 AMUMSS/BUILDMOD_AUTO.bat
 AMUMSS/CONFIG/
+AMUMSS/CreatedMODS/
 AMUMSS/CreatedModPAKs/BuildHistory/
 AMUMSS/MODBUILDER/
+AMUMSS/ModBackups/
 AMUMSS/ModScript/ModHelperScripts/
 AMUMSS/ModScript/___COMBINEx.txt
 AMUMSS/ModScript/___USE.txt
@@ -16,6 +18,7 @@ AMUMSS/TOOLS/
 AMUMSS/_AMM_ModScript_Manager.exe
 AMUMSS/_Check_CONFLICTS_in_MODS.bat
 AMUMSS/_Check_OUTDATED.bat
+AMUMSS/_Collapse_MODS.bat
 AMUMSS/_NMS PCBANKS Explorer.exe
 AMUMSS/_README-AMUMSS_Script_Rules.lnk
 AMUMSS/log.lua
