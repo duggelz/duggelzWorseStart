@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--File created using MBINCompiler version (5.57.0.1)-->
 <Data template="cGcBiomeFileList">
-	<Property name="ValidStartPlanetBiome">
-		<!-- Make the starter planet have a worse biome -->
-		<!-- Bug: This doesn't remove the original values from this table, which are 
-		            Toxic, Scorched, Radioactive, Frozen
-				  It just appends the new values instead. -->
+	<Property name="ValidStartPlanetBiome" overwrite="true">
+		<!-- Make the starter system have at least one planet with a worse biome. 
+			overwite="true" removes the default entries of
+			Toxic, Scorched, Radioactive, Frozen
+		-->
 		<Property name="ValidStartPlanetBiome" value="GcBiomeType">
 			<Property name="Biome" value="Barren" />
 		</Property>
@@ -30,9 +30,12 @@
 		<Property name="ValidStartPlanetBiome" value="GcBiomeType">
 			<Property name="Biome" value="Lava" />
 		</Property>
+		<!-- The game crashes if the starter planet is a water world -->
+		<!--
 		<Property name="ValidStartPlanetBiome" value="GcBiomeType">
 			<Property name="Biome" value="Waterworld" />
 		</Property>
+		-->
 		<Property name="ValidStartPlanetBiome" value="GcBiomeType">
 			<Property name="Biome" value="GasGiant" />
 		</Property>
