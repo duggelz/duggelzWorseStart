@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--File created using MBINCompiler version (5.57.0.1)-->
 <Data template="cGcBiomeFileList">
-	<Property name="ValidStartPlanetBiome">
+	<Property name="ValidStartPlanetBiome" _overwrite="true">
 		<!-- Make the starter system have at least one planet with a worse biome. 
-			_index 0..3 removes the default entries of
+			_overwrite removes the default entries of
 			Toxic, Scorched, Radioactive, Frozen
 		-->
-		<Property name="ValidStartPlanetBiome" value="GcBiomeType" _index="0">
+		<Property name="ValidStartPlanetBiome" value="GcBiomeType">
 			<Property name="Biome" value="Barren" />
 		</Property>
-		<Property name="ValidStartPlanetBiome" value="GcBiomeType" _index="1">
+		<Property name="ValidStartPlanetBiome" value="GcBiomeType">
 			<Property name="Biome" value="Dead" />
 		</Property>
-		<Property name="ValidStartPlanetBiome" value="GcBiomeType" _index="2">
+		<Property name="ValidStartPlanetBiome" value="GcBiomeType">
 			<Property name="Biome" value="Weird" />
 		</Property>
-		<Property name="ValidStartPlanetBiome" value="GcBiomeType" _index="3">
+		<Property name="ValidStartPlanetBiome" value="GcBiomeType">
 			<Property name="Biome" value="Red" />
 		</Property>
 		<Property name="ValidStartPlanetBiome" value="GcBiomeType">
