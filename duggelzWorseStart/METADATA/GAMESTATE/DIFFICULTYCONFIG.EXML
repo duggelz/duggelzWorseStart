@@ -32,11 +32,6 @@
 			<Property name="KnownProducts">
 				<Property name="KnownProducts" value="BP_ANALYSER" />
 				<Property name="KnownProducts" value="GARAGE_B" />
-				<Property name="KnownProducts" value="GARAGE_S" />
-				<Property name="KnownProducts" value="GARAGE_M" />
-				<Property name="KnownProducts" value="GARAGE_L" />
-				<Property name="KnownProducts" value="GARAGE_MECH" />
-				<Property name="KnownProducts" value="GARAGE_SUB" />
 				<Property name="KnownProducts" value="S9_BUILDERTREE" />
 				<Property name="KnownProducts" value="S9_EXOCRAFTTREE" />
 				<Property name="KnownProducts" value="S9_WEAPONTREE" />
