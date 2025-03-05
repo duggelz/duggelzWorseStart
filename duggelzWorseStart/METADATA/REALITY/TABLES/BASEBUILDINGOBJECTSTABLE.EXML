@@ -3,24 +3,42 @@
 <Data template="cGcBaseBuildingTable">
 	<!-- Allow Utopia stations to be built without a base -->
 	<Property name="Objects">
-		<Property name="Objects" value="GcBaseBuildingEntry">
-			<Property name="ID" value="S9_SUITTREE" />
+		<Property name="Objects" value="GcBaseBuildingEntry" _id="GARAGE_B">
+			<Property name="CanPickUp" value="true" />
+		</Property>
+		<Property name="Objects" value="GcBaseBuildingEntry" _id="GARAGE_S">
+			<Property name="CanPickUp" value="true" />
+		</Property>
+		<Property name="Objects" value="GcBaseBuildingEntry" _id="GARAGE_M">
+			<Property name="CanPickUp" value="true" />
+		</Property>
+		<Property name="Objects" value="GcBaseBuildingEntry" _id="GARAGE_L">
+			<Property name="CanPickUp" value="true" />
+		</Property>
+		<Property name="Objects" value="GcBaseBuildingEntry" _id="GARAGE_MECH">
+			<Property name="CanPickUp" value="true" />
+		</Property>
+		<Property name="Objects" value="GcBaseBuildingEntry" _id="GARAGE_SUB">
+			<Property name="CanPickUp" value="true" />
+		</Property>
+		<Property name="Objects" value="GcBaseBuildingEntry" _id="S9_SUITTREE">
+			<Property name="CanPickUp" value="true" />
 			<Property name="BuildableOnPlanet" value="true" />
 		</Property>
-		<Property name="Objects" value="GcBaseBuildingEntry">
-			<Property name="ID" value="S9_WEAPONTREE" />
+		<Property name="Objects" value="GcBaseBuildingEntry" _id="S9_WEAPONTREE">
+			<Property name="CanPickUp" value="true" />
 			<Property name="BuildableOnPlanet" value="true" />
 		</Property>
-		<Property name="Objects" value="GcBaseBuildingEntry">
-			<Property name="ID" value="S9_EXOCRAFTTREE" />
+		<Property name="Objects" value="GcBaseBuildingEntry" _id="S9_EXOCRAFTTREE">
+			<Property name="CanPickUp" value="true" />
 			<Property name="BuildableOnPlanet" value="true" />
 		</Property>
-		<Property name="Objects" value="GcBaseBuildingEntry">
-			<Property name="ID" value="S9_SHIPTREE" />
+		<Property name="Objects" value="GcBaseBuildingEntry" _id="S9_SHIPTREE">
+			<Property name="CanPickUp" value="true" />
 			<Property name="BuildableOnPlanet" value="true" />
 		</Property>
-		<Property name="Objects" value="GcBaseBuildingEntry">
-			<Property name="ID" value="S9_BUILDERTREE" />
+		<Property name="Objects" value="GcBaseBuildingEntry" _id="S9_BUILDERTREE">
+			<Property name="CanPickUp" value="true" />
 			<Property name="BuildableOnPlanet" value="true" />
 		</Property>
 	</Property>
