@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="cGcDefaultSaveData">
+	<Property name="State" value="GcPlayerStateData">
+		<!-- Start with exocraft summoning station and Utopia station -->
+		<Property name="Inventory" value="GcInventoryContainer">
+			<Property name="Slots">
+				<Property name="Slots" value="GcInventoryElement">
+					<Property name="Type" value="GcInventoryType">
+						<Property name="InventoryType" value="Product" />
+					</Property>
+					<Property name="Id" value="GARAGE_B" />
+					<Property name="Amount" value="1" />
+					<Property name="MaxAmount" value="1" />
+					<Property name="DamageFactor" value="0" />
+					<Property name="FullyInstalled" value="true" />
+					<Property name="Index" value="GcInventoryIndex">
+						<Property name="X" value="-1" />
+						<Property name="Y" value="-1" />
+					</Property>
+				</Property>
+				<Property name="Slots" value="GcInventoryElement">
+					<Property name="Type" value="GcInventoryType">
+						<Property name="InventoryType" value="Product" />
+					</Property>
+					<Property name="Id" value="S9_EXOCRAFTTREE" />
+					<Property name="Amount" value="1" />
+					<Property name="MaxAmount" value="1" />
+					<Property name="DamageFactor" value="0" />
+					<Property name="FullyInstalled" value="true" />
+					<Property name="Index" value="GcInventoryIndex">
+						<Property name="X" value="-1" />
+						<Property name="Y" value="-1" />
+					</Property>
+				</Property>
+			</Property>
+		</Property>
+	</Property>
+</Data>
